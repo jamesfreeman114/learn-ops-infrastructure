@@ -3,7 +3,7 @@
 ## 1. System Diagram
 
 ```mermaid
-graph LR
+graph TB
     Client["Client<br/>(React)"]
     API["API<br/>(Django + DRF)"]
     Database["Database<br/>(PostgreSQL 16)"]
