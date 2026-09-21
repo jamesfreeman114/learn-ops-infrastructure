@@ -18,7 +18,7 @@
 |--------|----------------------------------------------------------|
 | fixtures    | contains placeholder seed data (.json) to populate database until real values are put in                                                          |
 | migrations  | uses predefined Models to create new Django objects from the .json in fixtures                                                          |
-| models      | contains all the models for our project. Models are lists keys, their related names, data type, and whether or not the key is a Foreign Key to another Model                                                         |
+| models      | contains all the models for our project. Models list keys, their related names, data type, and whether or not the key is a Foreign Key to another Model                                                         |
 | serializers |  converts  objects to json to be sent to client                                                  |
 | tests       |  tests the model methods using simple html                                                       |
 | views       |  where methods for our models are defined                                                        |
@@ -33,7 +33,7 @@ Pipenv's dependency file. It lists the packages the project depends on and the r
 |---------|----------------------------------|
 | django |  the configuration, the settings, the top-level entry point. version needs to be the same for all people working on the project. "*" means any |
 | djangorestframework |  turns Django into a framework for building JSON APIs. adds serializers, Viewsets, and routers. removes the need for the Template Layer |
-| django-allauth | integrated set of Django applications regarding authentication, regitration, and account management |
+| django-allauth | integrated set of Django applications regarding authentication, registration, and account management |
 
 ## 5. What does `decorators.py` do?
 
